@@ -20,7 +20,11 @@ O notebook foi desenvolvido para ser executado no Google Colab. Para abrir o not
 
 https://github.com/evaldopm/tech-challenge-olist-insights
 
-Ele espera que os arquivos de dataset estejam disponíveis no Google Drive no seguinte caminho:
+No Google Drive, crie a estrutura de pastas a partir da raiz do seu drive pessoal:
+
+`/1AIAT/Tech_Challange/FASE1/archive/`
+
+No Colab, `/content/drive/` é o ponto de montagem do Google Drive e `MyDrive` representa o seu drive pessoal. Portanto, o caminho usado no notebook é:
 
 `/content/drive/MyDrive/1AIAT/Tech_Challange/FASE1/archive/`
 
