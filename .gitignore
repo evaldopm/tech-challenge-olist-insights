@@ -1,0 +1,36 @@
+# Python environment
+.venv/
+venv/
+ENV/
+env/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Ignore everything by default in the root, then explicitly allow project assets
+# (This helps ensure the desired folders/files are tracked if a broader ignore is used.)
+# If you don't need the root ignore, these negatives are still safe.
+!assets/
+!datasets/
+!COPILOT_INSTRUCTIONS.md
+
+# Ensure specific files inside allowed directories are also tracked
+!assets/**
+!datasets/**
