@@ -50,4 +50,3 @@ Os arquivos carregados no notebook são:
 ## Objetivo
 
 Criar uma análise clara e objetiva dos dados da Olist, apoiando decisões com insights sobre categorias de produtos, volume de pedidos por estado, tipos de pagamento e outras métricas relevantes.
-
