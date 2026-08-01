@@ -28,9 +28,7 @@ Thumbs.db
 # (This helps ensure the desired folders/files are tracked if a broader ignore is used.)
 # If you don't need the root ignore, these negatives are still safe.
 !assets/
-!datasets/
-!COPILOT_INSTRUCTIONS.md
 
-# Ensure specific files inside allowed directories are also tracked
-!assets/**
-!datasets/**
+# Ignore local dataset files and Copilot instructions from version control
+datasets/
+COPILOT_INSTRUCTIONS.md
