@@ -42,7 +42,11 @@ Os arquivos carregados no notebook são:
 
 ## Instruções
 
-1. Abra o notebook `notebooks/olist.ipynb` no Google Colab.
+1. Abra o notebook desejado na pasta notebooks no Google Colab.
+   Os notebooks disponíveis são:
+   - 1-olist-reviews-agent.ipynb — descoberta dos dados para o Agente Analista de Reviews;
+   - 2-olist-logistics-agent.ipynb — descoberta dos dados para o Agente de Performance Logística;
+   - 3-olist-sellers-agent.ipynb — descoberta dos dados para o Agente de Reativação de Clientes.
 2. Monte o Google Drive com o comando do Colab.
 3. Garanta que os arquivos estejam no diretório indicado.
 4. Execute as células na ordem para carregar os dados e gerar os gráficos.
